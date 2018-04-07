@@ -1,3 +1,5 @@
+//@ts-check
+
 let total = 0, count = 1;
 while (count <= 10) {
     total += count;
