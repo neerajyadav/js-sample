@@ -1,8 +1,4 @@
 //@ts-check
-
-let total = 0, count = 1;
-while (count <= 10) {
-    total += count;
-    count++;
+for (let num = 0; num < 50;) {
+    console.log((++num % 3 ? "" : "fuzz") + (num % 5 ? "" : "buzz") || num);
 }
-console.log(total);
